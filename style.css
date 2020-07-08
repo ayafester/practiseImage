@@ -1,4 +1,7 @@
 #canvas {
-  color: red;
-  border: 1px solid blue;
+}
+.p {
+  font: Verdana;
+  font-size: 14px;
+  color: blue;
 }

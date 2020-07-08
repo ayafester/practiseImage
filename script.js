@@ -18,8 +18,16 @@ ctx.rect(60, 10, 1200, 600);
 ctx.fillStyle = "#FFFAC8";
 ctx.fill();
 
+let x = 60;
+let y = 20;
+
 function draw() { //начальное положение картинок
-  ctx.drawImage(img1, 60, 20, 100, 180);
+  for(let i=0; i<20; i++) {
+    x += 20;
+    y += 20;
+    //ctx.drawImage(img1, x, y, 100, 180);
+  }
+  //ctx.drawImage(img1, x, y, 100, 180);
   ctx.drawImage(img2, 400, 400, 100, 180);
   ctx.drawImage(img3, 1000, 20, 100, 180);
   ctx.drawImage(img4, 1100, 420, 100, 180);
