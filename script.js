@@ -25,7 +25,7 @@ function draw() { //начальное положение картинок
   for(let i=0; i<20; i++) {
     x += 20;
     y += 20;
-    //ctx.drawImage(img1, x, y, 100, 180);
+    //ctx.drawImage(img1, x+i, y+i, 100, 180);
   }
   //ctx.drawImage(img1, x, y, 100, 180);
   ctx.drawImage(img2, 400, 400, 100, 180);
